@@ -86,15 +86,15 @@ class SaleDateApp:
                     command=self.reset).pack(side="left", padx=5, pady=5)
             
             self.contant_frame= tk.Frame(self.container_frame)
-            self.container_frame.pack(padx=5, pady=5, fill="both", expand=True)
+            self.contant_frame.pack(padx=5, pady=5, fill="both", expand=True)
         
         elif menu_name == "판매처별 판매집계":
             self.contant_frame= tk.Frame(self.container_frame)
-            self.container_frame.pack(padx=5, pady=5, fill="both", expand=True)
+            self.contant_frame.pack(padx=5, pady=5, fill="both", expand=True)
         
         else:
             self.contant_frame= tk.Frame(self.container_frame)
-            self.container_frame.pack(padx=5, pady=5, fill="both", expand=True)
+            self.contant_frame.pack(padx=5, pady=5, fill="both", expand=True)
 
     # 데이터 로드
     def load_data(self):
